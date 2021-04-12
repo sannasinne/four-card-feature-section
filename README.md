@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/sannasinne/four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://sannasinne.github.io/four-card-feature-section)
+- Live Site URL: [Add live site URL here](https://sannasinne.github.io/four-card-feature-section/)
 
 ## My process
 
