@@ -7,10 +7,87 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  color: var(--dark-blue);
+  font-size: 15px;
+  background: var(--light-gray);
   margin: 0;
   padding: 0;
+}
+
+span {
+  font-weight: 200;
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
+/* Section styles */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 40px 0 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 3px;
+  height: 220px;
+}
+
+img {
+  width: 50px;
+  align-self: flex-end;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card-1 {
+  border-top: 3px solid var(--cyan);
+}
+
+.card-2 {
+  border-top: 3px solid var(--red);
+}
+
+.card-3 {
+  border-top: 3px solid var(--orange);
+}
+
+.card-4 {
+  border-top: 3px solid var(--blue);
 }
 
 /* Attribution */
